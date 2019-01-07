@@ -1,0 +1,7 @@
+led_sdram.bin: led_sdram.s main.c
+	arm-linux-gcc -c $^
+	arm-linux-ld -Ttext 0x0 led_sdram.o main.o -o led_sdram_elf
+	arm-linux-objcopy -F binary led_sdram_elf $@ 
+
+clean:
+	rm -f *.o led_sdram.bin led_sdarm_elf @led_sdarm.dis
