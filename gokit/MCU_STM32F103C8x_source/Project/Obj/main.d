@@ -1,10 +1,10 @@
 .\obj\main.o: ..\User\main.c
-.\obj\main.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\obj\main.o: ..\Hal\Hal_key/hal_key.h
-.\obj\main.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\obj\main.o: ..\Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\obj\main.o: ..\Lib\CMSIS\CM3\CoreSupport\core_cm3.h
-.\obj\main.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\main.o: ..\Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 .\obj\main.o: ..\User\stm32f10x_conf.h
 .\obj\main.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -34,6 +34,6 @@
 .\obj\main.o: ..\Hal\Hal_Usart/hal_uart.h
 .\obj\main.o: ..\Hal\Hal_Watchdog/hal_watchdog.h
 .\obj\main.o: ..\Gizwits\gizwits_protocol.h
-.\obj\main.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
-.\obj\main.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\obj\main.o: ..\Gizwits\gizwits_product.h

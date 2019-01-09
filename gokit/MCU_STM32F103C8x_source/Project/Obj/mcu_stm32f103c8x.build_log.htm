@@ -3,31 +3,31 @@
 <pre>
 <h1>礦ision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: μVision V5.14.0.0
+IDE-Version: μVision V5.15
 Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: 11 佛山锐风电脑, 0757-82621740, LIC=S5IJJ-US0VP-05ITY-IQ66X-3RT75-NAXT3
+License Information: a a, a, LIC=7YKHL-070JZ-65WTW-QY3SP-3HTE0-0A8N4
  
 Tool Versions:
-Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
-Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.05 update 1 (build 106)
-Assembler:       Armasm.exe V5.05 update 1 (build 106)
-Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
-Library Manager: ArmAr.exe V5.05 update 1 (build 106)
-Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
-CPU DLL:         SARMCM3.DLL V5.14.0.0
+Toolchain:       MDK-ARM Professional  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
 Dialog DLL:      DARMSTM.DLL V1.65.0.0
-Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.0
 Dialog DLL:      TARMSTM.DLL V1.64.0.0
  
 <h2>Project:</h2>
-E:\WIFI工程-2\MCU_STM32F103C8x_source\Project\mcu_stm32f103c8x.uvproj
-Project File Date:  08/18/2017
+E:\project\gokit\MCU_STM32F103C8x_source\Project\mcu_stm32f103c8x.uvprojx
+Project File Date:  12/22/2018
 
 <h2>Output:</h2>
-Rebuild target 'mcu_stm32f103c8x'
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'mcu_stm32f103c8x'
 assembling startup_stm32f10x_md.s...
-compiling core_cm3.c...
 compiling system_stm32f10x.c...
 compiling misc.c...
 compiling stm32f10x_adc.c...
@@ -68,7 +68,8 @@ compiling gizwits_protocol.c...
 ..\Gizwits\gizwits_protocol.c(1012): warning:  #223-D: function "gizGetTimerCount" declared implicitly
       gizwitsProtocol.waitAck.sendTime = gizGetTimerCount();
 ..\Gizwits\gizwits_protocol.c(1088): warning:  #223-D: function "gizGetTimerCount" declared implicitly
-              if(SEND_MAX_TIME < (gizGetTimerCount() - gizwitsProtocol.waitAck.sendTime))
+              if(
+END_MAX_TIME < (gizGetTimerCount() - gizwitsProtocol.waitAck.sendTime))
 ..\Gizwits\gizwits_protocol.c(1153): warning:  #1029-D: __packed ignored for non-pointer parameter
   static int32_t gizProtocolErrorCmd(protocolHead_t *head,errorPacketsType_t errno)
 ..\Gizwits\gizwits_protocol.c(1190): warning:  #177-D: variable "ret" was declared but never referenced
@@ -90,6 +91,12 @@ linking...
 Program Size: Code=19732 RO-data=336 RW-data=76 ZI-data=4348  
 FromELF: creating hex file...
 ".\Obj\mcu_stm32f103c8x.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\project\gokit\MCU_STM32F103C8x_source\Project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
 </pre>
 </body>
 </html>

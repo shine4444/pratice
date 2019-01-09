@@ -1,10 +1,10 @@
 .\obj\gizwits_product.o: ..\Gizwits\gizwits_product.c
-.\obj\gizwits_product.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\obj\gizwits_product.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\obj\gizwits_product.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\gizwits_product.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\obj\gizwits_product.o: ..\Hal\Hal_Usart/hal_uart.h
 .\obj\gizwits_product.o: ..\Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\obj\gizwits_product.o: ..\Lib\CMSIS\CM3\CoreSupport\core_cm3.h
-.\obj\gizwits_product.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\gizwits_product.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\gizwits_product.o: ..\Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 .\obj\gizwits_product.o: ..\User\stm32f10x_conf.h
 .\obj\gizwits_product.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -32,6 +32,6 @@
 .\obj\gizwits_product.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\obj\gizwits_product.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\obj\gizwits_product.o: ..\Gizwits\gizwits_protocol.h
-.\obj\gizwits_product.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
-.\obj\gizwits_product.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\gizwits_product.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\gizwits_product.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\obj\gizwits_product.o: ..\Gizwits\gizwits_product.h
